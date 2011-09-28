@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MNColorPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MNColorPickerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		2B8EC5F310B165A900F39113 /* MNMobileFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EC5F210B165A900F39113 /* MNMobileFunctions.m */; };
+		2BF62E50107DD33D00225827 /* MNColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF62E45107DD33C00225827 /* MNColorPicker.m */; };
+		2BF62E51107DD33D00225827 /* MNColorWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF62E47107DD33D00225827 /* MNColorWheelView.m */; };
+		2BF62E52107DD33D00225827 /* MNBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF62E49107DD33D00225827 /* MNBrightnessView.m */; };
+		2BF62E53107DD33D00225827 /* MNMagnifyingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF62E4B107DD33D00225827 /* MNMagnifyingView.m */; };
+		2BF62E54107DD33D00225827 /* UIColor+ColorSpaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF62E4D107DD33D00225827 /* UIColor+ColorSpaces.m */; };
+		2BF62E55107DD33D00225827 /* MNColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF62E4F107DD33D00225827 /* MNColorView.m */; };
+		2BF62E6B107DD38800225827 /* BrightnessWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF62E69107DD38800225827 /* BrightnessWheel.png */; };
+		2BF62E6C107DD38800225827 /* ColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF62E6A107DD38800225827 /* ColorWheel.png */; };
+		8EFE865714335F8600E787D8 /* DoneDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE865314335F8600E787D8 /* DoneDown.png */; };
+		8EFE865814335F8600E787D8 /* DoneDown3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE865414335F8600E787D8 /* DoneDown3.png */; };
+		8EFE865914335F8600E787D8 /* DoneUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE865514335F8600E787D8 /* DoneUp.png */; };
+		8EFE865A14335F8600E787D8 /* DoneUp3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE865614335F8600E787D8 /* DoneUp3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MNColorPickerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorPickerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MNColorPickerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorPickerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MNColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* MNColorPicker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorPicker_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Resources/RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B8EC5F110B165A900F39113 /* MNMobileFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMobileFunctions.h; sourceTree = "<group>"; };
+		2B8EC5F210B165A900F39113 /* MNMobileFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMobileFunctions.m; sourceTree = "<group>"; };
+		2BF62E44107DD33C00225827 /* MNColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorPicker.h; sourceTree = "<group>"; };
+		2BF62E45107DD33C00225827 /* MNColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorPicker.m; sourceTree = "<group>"; };
+		2BF62E46107DD33D00225827 /* MNColorWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorWheelView.h; sourceTree = "<group>"; };
+		2BF62E47107DD33D00225827 /* MNColorWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorWheelView.m; sourceTree = "<group>"; };
+		2BF62E48107DD33D00225827 /* MNBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNBrightnessView.h; sourceTree = "<group>"; };
+		2BF62E49107DD33D00225827 /* MNBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNBrightnessView.m; sourceTree = "<group>"; };
+		2BF62E4A107DD33D00225827 /* MNMagnifyingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMagnifyingView.h; sourceTree = "<group>"; };
+		2BF62E4B107DD33D00225827 /* MNMagnifyingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMagnifyingView.m; sourceTree = "<group>"; };
+		2BF62E4C107DD33D00225827 /* UIColor+ColorSpaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorSpaces.h"; sourceTree = "<group>"; };
+		2BF62E4D107DD33D00225827 /* UIColor+ColorSpaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorSpaces.m"; sourceTree = "<group>"; };
+		2BF62E4E107DD33D00225827 /* MNColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorView.h; sourceTree = "<group>"; };
+		2BF62E4F107DD33D00225827 /* MNColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorView.m; sourceTree = "<group>"; };
+		2BF62E69107DD38800225827 /* BrightnessWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrightnessWheel.png; path = Resources/BrightnessWheel.png; sourceTree = SOURCE_ROOT; };
+		2BF62E6A107DD38800225827 /* ColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColorWheel.png; path = Resources/ColorWheel.png; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* MNColorPicker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MNColorPicker-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8EFE865314335F8600E787D8 /* DoneDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DoneDown.png; path = Resources/DoneDown.png; sourceTree = "<group>"; };
+		8EFE865414335F8600E787D8 /* DoneDown3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DoneDown3.png; path = Resources/DoneDown3.png; sourceTree = "<group>"; };
+		8EFE865514335F8600E787D8 /* DoneUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DoneUp.png; path = Resources/DoneUp.png; sourceTree = "<group>"; };
+		8EFE865614335F8600E787D8 /* DoneUp3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DoneUp3.png; path = Resources/DoneUp3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* MNColorPickerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MNColorPickerAppDelegate.m */,
+				2BF62E56107DD33F00225827 /* ColorPicker */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MNColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* MNColorPicker_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE865314335F8600E787D8 /* DoneDown.png */,
+				8EFE865414335F8600E787D8 /* DoneDown3.png */,
+				8EFE865514335F8600E787D8 /* DoneUp.png */,
+				8EFE865614335F8600E787D8 /* DoneUp3.png */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MNColorPicker-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BF62E56107DD33F00225827 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2BF62E44107DD33C00225827 /* MNColorPicker.h */,
+				2BF62E45107DD33C00225827 /* MNColorPicker.m */,
+				2BF62E46107DD33D00225827 /* MNColorWheelView.h */,
+				2BF62E47107DD33D00225827 /* MNColorWheelView.m */,
+				2BF62E48107DD33D00225827 /* MNBrightnessView.h */,
+				2BF62E49107DD33D00225827 /* MNBrightnessView.m */,
+				2BF62E4A107DD33D00225827 /* MNMagnifyingView.h */,
+				2BF62E4B107DD33D00225827 /* MNMagnifyingView.m */,
+				2BF62E4C107DD33D00225827 /* UIColor+ColorSpaces.h */,
+				2BF62E4D107DD33D00225827 /* UIColor+ColorSpaces.m */,
+				2BF62E4E107DD33D00225827 /* MNColorView.h */,
+				2BF62E4F107DD33D00225827 /* MNColorView.m */,
+				2B8EC5F110B165A900F39113 /* MNMobileFunctions.h */,
+				2B8EC5F210B165A900F39113 /* MNMobileFunctions.m */,
+				2BF62E69107DD38800225827 /* BrightnessWheel.png */,
+				2BF62E6A107DD38800225827 /* ColorWheel.png */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Color Picker Example App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Color Picker Example App" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Picker Example App";
+			productName = MNColorPicker;
+			productReference = 1D6058910D05DD3D006BFB54 /* MNColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MNColorPicker" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Color Picker Example App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				2BF62E6B107DD38800225827 /* BrightnessWheel.png in Resources */,
+				2BF62E6C107DD38800225827 /* ColorWheel.png in Resources */,
+				8EFE865714335F8600E787D8 /* DoneDown.png in Resources */,
+				8EFE865814335F8600E787D8 /* DoneDown3.png in Resources */,
+				8EFE865914335F8600E787D8 /* DoneUp.png in Resources */,
+				8EFE865A14335F8600E787D8 /* DoneUp3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MNColorPickerAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				2BF62E50107DD33D00225827 /* MNColorPicker.m in Sources */,
+				2BF62E51107DD33D00225827 /* MNColorWheelView.m in Sources */,
+				2BF62E52107DD33D00225827 /* MNBrightnessView.m in Sources */,
+				2BF62E53107DD33D00225827 /* MNMagnifyingView.m in Sources */,
+				2BF62E54107DD33D00225827 /* UIColor+ColorSpaces.m in Sources */,
+				2BF62E55107DD33D00225827 /* MNColorView.m in Sources */,
+				2B8EC5F310B165A900F39113 /* MNMobileFunctions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MNColorPicker_Prefix.pch;
+				INFOPLIST_FILE = "MNColorPicker-Info.plist";
+				PRODUCT_NAME = MNColorPicker;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MNColorPicker_Prefix.pch;
+				INFOPLIST_FILE = "MNColorPicker-Info.plist";
+				PRODUCT_NAME = MNColorPicker;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Color Picker Example App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MNColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
